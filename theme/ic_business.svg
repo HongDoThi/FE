@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/subject/business</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/subject/business">
+            <g id="Page-1" transform="translate(6.000000, 8.000000)">
+                <polygon id="Fill-3" fill="#FFFFFF" points="3.55 30.47 6.98 30.47 6.98 19.6 3.55 19.6"></polygon>
+                <polygon id="Fill-5" fill="#FFFFFF" points="8.77 30.47 12.2 30.47 12.2 16.44 8.77 16.44"></polygon>
+                <polygon id="Fill-6" fill="#FFFFFF" points="14 30.46 17.43 30.46 17.43 13.75 14 13.75"></polygon>
+                <polygon id="Fill-7" fill="#FFFFFF" points="19.23 30.47 22.66 30.47 22.66 15.61 19.23 15.61"></polygon>
+                <polygon id="Fill-8" fill="#FFFFFF" points="24.46 30.47 27.89 30.47 27.89 18.09 24.46 18.09"></polygon>
+                <polygon id="Fill-9" fill="#FFFFFF" points="29.68 30.47 33.111 30.47 33.111 13.96 29.68 13.96"></polygon>
+                <polygon id="Fill-10" fill="#FFFFFF" points="34.91 30.47 38.34 30.47 38.34 11.28 34.91 11.28"></polygon>
+                <path d="M0.1602,0 L0.1602,33.5 L38.3402,33.5 M3.6502,14.48 L18.4302,5.73 L25.2402,13.36 L37.5302,0.9 M30.0502,0.76 L37.5702,0.76 L37.5702,8.29" id="Stroke-11" stroke="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

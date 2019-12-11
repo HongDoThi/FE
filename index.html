@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{$title_meta}}</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style/timedata/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style/css/themify-icons.css">
+  <link rel="stylesheet" href="style/css/et-line-icons.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="style/duhoc.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa fa-angle-up" aria-hidden="true" style="color:#006699"></i>
+  </button>
+  <nav class="navbar navbar-expand-md ">
+    <a class="navbar-brand" href="/"><img src="theme/Original3.png" alt="" class="w-100"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+      aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExample04">
+      <ul class="navbar-nav ml-auto menutop">
+        <?php echo FF_menu_multi_level($m_layout['menu-top-5'])?>
+        <form class="frm-search-info" action="/search" method="get">
+          <i class="fa fa-search icon1 mx-3"></i>
+          <div>
+            <input type="hidden" name="type_url" value="san-pham">
+            <input type="text" placeholder="Tìm kiếm thông tin du học(*)" class="info-search" name="keyword">
+            <button type="submit"><i class="fa fa-search icon2"></i></button>
+          </div>
+        </form>
+        <form class="form-inline my-2 frm-search-mb" action="/search" method="get">
+          <div class="container">
+            <div class="row">
+              <div class="col-10 px-0">
+                <input type="hidden" name="type_url" value="san-pham">
+                <input type="text" class="form-control w-100 input-mb" name="keyword" placeholder="Tìm kiếm"
+                  style="outline: none;border: 1px solid #efefef;border-top-right-radius:unset;border-bottom-right-radius:unset;">
+              </div>
+              <div class="col-2 pl-0">
+                <button class="w-100 h-100 btn btn-primary" style="border-radius:unset!important"><i
+                    class="fa fa-search"></i></button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <li>
+          <i class="fa fa-user"></i>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  @yield('content')
+
+  <div class="register">
+    <div class="container top">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-1 col-md-6">
+          <img src="theme/Original3.png" alt="" class="mb-20">
+          <ul class="pl-0">
+            <li class="list-unstyled mb16">
+              <a class="text-white" href="">Công Ty TNHH IDP Giáo Dục úc</a>
+            </li>
+            <li class="list-unstyled mb16">
+              <a class="text-white" href="">Địa chỉ:12Bis Phan Kế Bính, P. Đa Kao, Q. 1, Tp. Hồ Chí Minh (TPHCM)</a>
+            </li>
+            <li class="list-unstyled mb16">
+              <a class="text-white" href="">Điện thoại:(08) 39104205, 39104129</a>
+            </li>
+            <li class="list-unstyled mb16">
+              <a class="text-white" href="">Email:info.hcmc@idp.com</a>
+            </li>
+
+          </ul>
+          <div class="form-register">
+                <label for="" class="title-register mb-0">Đăng ký nhận bản tin du học</label>
+                <p class="sub-title-register">Bạn sẽ nhận được các bí quyết và hướng dẫn từ các chuyên gia về du học của chúng tôi.</p>
+                <form style="margin-bottom: 10px;" action="" method="post">
+                  <input type="text" placeholder="Nhập email của bạn" class="type-email">
+                  <div class="row">
+                  <div class="col-lg-4 offset-lg-8">
+                    <button class="register-now w-100">ĐĂNG KÝ NGAY</button>
+                  </div>
+                </div>
+                </form>                
+              </div>
+        </div>
+        <div class="col-lg-3 lienket col-md-6">
+          <div style="height:50px;position: relative;" class="mb-20">
+            <div class="mb20 text-white" style="position: absolute;bottom:0;text-align: center;">Link hữu ích</div>
+          </div>
+          <ul class="pl-0">
+            <li class="list-unstyled mb16">
+              <a class="text-white" href="">Thông tin về Cookies</a>
+            </li>
+            <li class="list-unstyled mb16">
+              <a class="text-white" href="">Điều kiện và điều khoản</a>
+            </li>
+            <li class="list-unstyled mb16">
+              <a class="text-white" href="">Sơ đồ trang web</a>
+            </li>
+            <li class="list-unstyled mb16">
+              <a class="text-white" href="">Chính sách bảo mật</a>
+            </li>
+            <li class="list-unstyled mb16">
+              <a class="text-white" href="">IDP Connect</a>
+            </li>
+          </ul>
+
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div style="height:50px;position: relative;" class="mb-20">
+            <div class="mb20 text-white" style="position: absolute;bottom:0;text-align: center;">Kết nối với chúng tôi
+            </div>
+          </div>
+          <ul class="pl-0 list-social">
+            <li class="list-unstyled">
+              <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-unstyled">
+              <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-unstyled">
+              <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-unstyled">
+              <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <p class="mb-0 text-white font-italic">© 2019 IDP Connect Limited All rights reserved.</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="theme/idp_brnd_white.svg" alt="" width="130" height="25" class="float-right">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="bootstrap/js/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="style/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
